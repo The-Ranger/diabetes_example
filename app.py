@@ -281,7 +281,7 @@ with st.expander("Dataset overview", expanded=False):
     st.bar_chart(counts)
     st.caption("In this CSV, Outcome 0 means no diabetes and Outcome 1 means diabetes.")
 
-st.sidebar.header("Training setup")
+st.sidebar.header("--==++ Training setup ++==--")
 strategy = st.sidebar.radio(
     "How should the model be chosen?",
     ["Select a model", "Compare models and select the best"],
